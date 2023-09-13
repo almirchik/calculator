@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(46, 45, 45, 0.58);
+}
+
+input, button{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    margin-top: 48px;
+}
+
+.calculator h1{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: left;
+    color: #fff;
+}
+
+.calc{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+    margin-top: 48px;
+}
+
+.calc input{
+    width: 600px;
+    padding: 8px 0 8px 4px;
+    border: 1px solid transparent;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.calc input:hover{
+    border: 2px solid #d34534;
+}
+
+.actions button{
+    font-weight: 500;
+    font-size: 20px;
+    padding: 5px 10px;
+    color: white;
+    background-color: black;
+}
+
+.actions button:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    border: 2px solid #cdc9c9;
+}
+
+.calc .actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.resultBtn{
+    width: 600px;
+    padding: 8px 0 8px 4px;
+    border: 1px solid transparent;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.resultBtn:hover{
+    color: white;
+    background-color: black;
+    transition: 0.5s
+}
+
+.calculator .result{
+    font-size: 48px;
+    font-weight: 700;
+}
